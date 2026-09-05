@@ -22,3 +22,7 @@ rustflags = ["-C", "link-arg=-fuse-ld=lld"]
 
 [env]
 MACOSX_DEPLOYMENT_TARGET = "10.15.7"
+
+# managed-by: awdemos-cargo-target-provision (appended [build] target-dir only)
+[build]
+target-dir = "/.cargo-targets/targets/zed/main/target"
